@@ -8,9 +8,14 @@ py_Spider
 
 getIp.py
 ----
-本文件自动爬取第三方网站上的代理ip并进行验证，将验证通过的代理ip存储在checkedlist当中
+本文件自动爬取第三方网站上的代理ip并进行验证，将验证通过的代理ip存储在checkedProxyList当中
 
 使用的第三方网站：
 
 
                                 * http://www.proxy360.cn/Region/Brazil
+                                * http://www.proxy360.cn/Region/China
+                                * http://www.proxy360.cn/Region/America
+                                * ......
+由于目标网站数目过多（防止数目太少爬取不到相应规模的代理ip），所以采用python的多线程处理，同时
+开启20个线程进行爬取
