@@ -17,5 +17,5 @@ getIp.py
                                 * http://www.proxy360.cn/Region/China
                                 * http://www.proxy360.cn/Region/America
                
-由于目标网站数目过多（防止数目太少爬取不到相应规模的代理ip），所以采用python的多线程处理，同时
+<br>由于目标网站数目过多（防止数目太少爬取不到相应规模的代理ip），所以采用python的多线程处理，同时
 开启20个线程进行爬取
