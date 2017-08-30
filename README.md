@@ -11,3 +11,6 @@ getIp.py
 本文件自动爬取第三方网站上的代理ip并进行验证，将验证通过的代理ip存储在checkedlist当中
 
 使用的第三方网站：
+
+
+                                * http://www.proxy360.cn/Region/Brazil
