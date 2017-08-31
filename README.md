@@ -8,7 +8,7 @@ py_Spider
 
 此文件夹需要注意的地方有以下几点:
 >> 1.运行时需要先运行main文件，这样可以得到在getdata里面使用的数据<br/>
->> 2.其次getdata文件是分开运行的，由于我把main文件运行出来的数据直接存在getdata里面了，所以可以单独运行
+>> 2.其次getdata文件是分开运行的，由于我把main文件运行出来的数据直接存在getdata里面了，所以可以单独运行<br/>
 >> 3.数据库连接采用pyodbc的方法，可自行百度操作，或者使用output方法输出为txt文档
 
 
@@ -30,7 +30,8 @@ getIp.py
 
 html_downloader.py
 -----
-本文件主要通过BeautifulSoup等第三方库来进行相应的爬取操作
+本文件主要通过urllib2来设置代理ip以及伪装浏览器等反反爬虫策略，代理ip是从前面检测出来的可以用的
+ip中随机选取出来，并且对于可能出现的urlerror进行了异常处理
 
 
 main.py
@@ -42,4 +43,5 @@ main.py
 
 getData.py
 ----
+
 
