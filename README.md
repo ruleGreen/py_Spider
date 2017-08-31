@@ -18,14 +18,16 @@ getIp.py
                                 * http://www.proxy360.cn/Region/China
                                 * http://www.proxy360.cn/Region/America
                
-<br>由于目标网站数目过多（防止数目太少爬取不到相应规模的代理ip），所以采用python的多线程处理，同时
+
+由于目标网站数目过多（防止数目太少爬取不到相应规模的代理ip），所以采用python的多线程处理，同时
 开启20个线程进行爬取,再分别进行验证，最终得到可用的代理ip
-<br><br>
+
+
 html_downloader.py
 -----
 本文件主要通过BeautifulSoup等第三方库来进行相应的爬取操作
 
-<br><br>
+
 main.py
 ----
 本文件主要通过浏览器渲染页面时的加载json文件爬取相应的事项编码，对于不同的部门来说事项在一个page页
